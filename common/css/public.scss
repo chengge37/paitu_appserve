@@ -1,0 +1,45 @@
+/* 左边带有一条紫色竖线的标题,用法：<span class="title-with-line">执行人</span> */
+.title-with-line {
+  padding-left: 16rpx;
+  font-weight: 500;
+  color: #333;
+  font-size: 28rpx;
+  position: relative;
+  height: fit-content;
+
+  &:before {
+    content: '';
+    width: 2px;
+    height: 12px;
+    background: #7842EB;
+    border-radius: 4rpx;
+    margin-right: 8rpx;
+    color: #7842EB;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+  }
+}
+
+// 并且文字分别向两侧text-align
+.flexBoth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex{
+	display:flex;
+	align-items:center;
+}
+
+.custom-header {
+  position: fixed;
+  background-color: #f2f3f6;
+  z-index: 888;
+}
+
+.custom-content {
+  padding-top: 80rpx;
+  
+}

@@ -1,0 +1,243 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/home",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/order",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/schedule",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/message",
+			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"navigationBarTitleText": "消息"
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/me"
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/finance/index"
+		},
+		{
+			"path": "pages/order/orderDetail",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "订单详情"
+				}
+			}
+		},
+		{
+			"path": "pages/order/orderMore",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "更多"
+				}
+			}
+		},
+		{
+			"path": "pages/order/operateHistory",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "操作记录"
+				}
+			}
+		},
+		{
+			"path": "pages/order/selectEquip",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "选择器材"
+				}
+			}
+		},
+		{
+			"path": "pages/order/clientList",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "客户列表"
+				}
+			}
+		},
+		{
+			"path": "pages/client/addClient",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "新增客户"
+				}
+			}
+		},
+		{
+			"path": "pages/employee/index",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "新增员工"
+				}
+			}
+		},
+		{
+			"path": "pages/my/index"
+		},
+		{
+			"path": "pages/my/safe",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "账号安全"
+				}
+			}
+		},
+		{
+			"path": "pages/my/conversation",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "会话列表"
+				}
+			}
+		},
+		{
+			"path": "pages/my/chatBox",
+			"style": {
+				"app-plus": {
+					"navigationBarTitleText": "会话"
+				}
+			}
+		},
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, 
+		{
+			"path": "pages/search/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/todo/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/schedule/preview",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/order/addOrder",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/order/checkList",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/order/operateAgree",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/schedule/newSchedule"
+		}
+  
+  
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "派图租赁",
+		"navigationBarBackgroundColor": "#f8f8f8",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#4F1FB5",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"fontSize": "11px",
+		"list": [{
+			"pagePath": "pages/tabBar/home",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/home1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabBar/order",
+			"iconPath": "static/img/tabbar/order.png",
+			"selectedIconPath": "static/img/tabbar/order1.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/tabBar/schedule",
+			"iconPath": "static/img/tabbar/richeng.png",
+			"selectedIconPath": "static/img/tabbar/richeng1.png",
+			"text": "日程"
+		}, {
+			"pagePath": "pages/tabBar/message",
+			"iconPath": "static/img/tabbar/message.png",
+			"selectedIconPath": "static/img/tabbar/message1.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/tabBar/me",
+			"iconPath": "static/img/tabbar/my.png",
+			"selectedIconPath": "static/img/tabbar/my1.png",
+			"text": "我的"
+		}]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/tabBar/home", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

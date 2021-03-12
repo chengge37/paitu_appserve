@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "h5",
+  "main": "main.js",
+  "dependencies": {
+    "date-fns": "^2.14.0",
+    "lodash": "^4.17.15",
+    "qiniu-js": "^2.5.5",
+    "qs": "^6.9.3",
+    "shortid": "^2.2.15",
+    "uni-simple-router": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://paitume.tpddns.cn:8099/paitu/appserve.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
